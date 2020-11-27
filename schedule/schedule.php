@@ -12,8 +12,14 @@ ADD SCHEDULE:<br><br>
         </form>
 
 REMOVE SCHEDULE:<br><br>
-        <form action="ingd-remove.php" method="post">
-        ID: <input type="text" name="ingd"><br>
+        <form action="sch-delete.php" method="post">
+        SCHEDULE ID: <input type="text" name="schid"><br>
+        <input type="submit">
+        </form>
+
+VIEW SCHEDULE OF SPECIFIC CHEF:<br><br>
+        <form action="sch-chef.php" method="post">
+        CHEF ID: <input type="text" name="chefid"><br>
         <input type="submit">
         </form>
 
